@@ -100,7 +100,7 @@
                  org.yaml/snakeyaml]]
    [javax.xml.bind/jaxb-api "2.4.0-b180830.0359"]                     ; add the `javax.xml.bind` classes which we're still using but were removed in Java 11
    [kixi/stats "0.4.4" :exclusions [org.clojure/data.avl]]            ; Various statistic measures implemented as transducers
-   [log4j/log4j "1.2.17"                                              ; logging framework. TODO - consider upgrading to Log4j 2 -- see https://logging.apache.org/log4j/log4j-2.6.1/manual/migration.html
+   [log4j/log4j "2.13.3"                                              ; logging framework
     :exclusions [javax.mail/mail
                  javax.jms/jms
                  com.sun.jdmk/jmxtools
